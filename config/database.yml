@@ -24,3 +24,5 @@ test:
 production:
   <<: *default
   database: lauranpham_production
+  username: lauranpham
+  password: <%= ENV['LAURANPHAM_DATABASE_PASSWORD'] %>
