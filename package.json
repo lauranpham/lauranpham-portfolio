@@ -6,7 +6,9 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
+    "bootstrap": "^4.5.0",
     "devise": "^1.0.9",
+    "font-awesome": "^4.7.0",
     "jbuilder": "0.0.5",
     "pg": "^8.2.1",
     "turbolinks": "^5.2.0"
