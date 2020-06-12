@@ -58,3 +58,15 @@
 .project-box img:hover {
   transform: scale(1.5);
 }
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
