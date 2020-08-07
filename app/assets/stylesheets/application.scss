@@ -18,7 +18,7 @@ html {
 
 body {
   color: #757575;
-  font-family: "Roboto", sans-serif;
+  font-family: "Avenir", sans-serif;
   text-align: center;
   /* font-size: 10px; */
   margin: 0px;
@@ -34,8 +34,12 @@ p {
 }
 
 h1,
-h2 {
-  font-family: "Staatliches", cursive;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir Next", sans-serif;
 }
 
 #heading-big {
@@ -186,4 +190,17 @@ p {
     max-width: 130px;
     max-height: 130px;
   }
+}
+
+/* Heading Font */
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/fonts/AvenirNext-Bold.ttf");
+}
+/* Body font */
+@font-face {
+  font-family: "Avenir";
+  src: url("../../assets/fonts/Avenir.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
